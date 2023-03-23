@@ -1,6 +1,6 @@
 <script>
   import Title from "./components/AppTitle.vue"
-  import Jumbotron from "./components/Apphero.vue"
+  import Jumbotron from "./components/AppHero.vue"
 
 
   export default {
