@@ -25,9 +25,9 @@
 
 <style>
 
-  .jumbotron {
-    display: flex;
+  .jumbo img{
     width: 100%;
+
   }
 </style>
     
