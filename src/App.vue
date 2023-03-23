@@ -1,5 +1,6 @@
 <script>
   import Title from "./components/AppTitle.vue"
+  import Jumbotron from "./components/Apphero.vue"
 
 
   export default {
@@ -10,6 +11,7 @@
     },
     components: {
       Title,
+      Jumbotron,
     },
 
     methods: {}
@@ -20,8 +22,9 @@
 <template>
   <div>
     <Title></Title>
+    <Jumbotron></Jumbotron>
     <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
+      <img src="/images/vite_logo.png" class="logo" alt="Vite logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />

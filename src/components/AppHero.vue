@@ -1,6 +1,9 @@
 <script>
   export default {
     data () {
+      return {
+
+      };
     },
 
   }
@@ -21,10 +24,10 @@
 
 
 <style>
+
   .jumbotron {
-    background-color: #fff;
-    width: 200px;
-    height: 200px;
+    display: flex;
+    width: 100%;
   }
 </style>
     
